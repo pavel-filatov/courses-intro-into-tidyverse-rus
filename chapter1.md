@@ -1,9 +1,9 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Знакомство с tidyverse'
+description: 'В этой главе вы познакомитесь с основами tidyverse, научитесь загружать данные и проводить их первичный анализ.'
 ---
 
-## Example coding exercise
+## 1. Загружаем пакет
 
 ```yaml
 type: NormalExercise
@@ -28,12 +28,12 @@ This is an example exercise.
 
 `@sample_code`
 ```{r}
-
+# Загрузите gfr
 ```
 
 `@solution`
 ```{r}
-
+library(tidyverse)
 ```
 
 `@sct`
